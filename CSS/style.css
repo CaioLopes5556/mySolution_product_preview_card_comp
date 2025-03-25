@@ -1,0 +1,119 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    background-color: var(--bg-color);
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.container{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 2rem;
+}
+
+.right-content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem 0;
+    padding: min(10rem, 5%);
+    background-color: var(--main-color) ;
+    border-radius: 0 0 1rem 1rem;
+}
+
+.text{
+    font-size: clamp(1rem, 4vw, 2rem);
+    color: var(--main-txt-color);
+}
+
+.mob-img{
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.tittle{
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    line-height: clamp(3rem, 8vw, 5.5rem) ;
+    font-size: clamp(3rem, 8vw, 5.5rem);
+    color: var(--second-txt-color);
+}
+
+.subtittle{
+    margin-bottom: 2rem;
+    letter-spacing: .8rem;
+    text-transform: uppercase;
+    font-size: clamp(1.2rem, 3vw, 2.4rem);
+    font-weight: 500;
+    color: var(--main-txt-color);
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--btn-color);
+    color: var(--main-color);
+    gap: 0 2rem;
+    width: 100%;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    padding: min(10rem, 5%);
+    cursor: pointer;
+    transition: background .7s  ease-in-out;
+}
+
+.btn img{
+    max-width:5rem;
+    width: 2rem;
+}
+
+.btn-text{
+    font-size: clamp(1.2rem, 3vw, 2.4rem);
+    font-weight: 500;
+}
+
+.btn:hover{
+    background: var(--btn-hover-color);
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    gap: 0 2rem;
+    padding: min(3rem,3%);
+}
+
+.price .new-price{
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    font-size: clamp(3rem, 10vw, 6rem);
+    color: var(--btn-color);
+}
+
+.discount{
+    text-decoration:line-through;
+    font-size: clamp(1rem, 4vw, 2rem);
+    color: var(--main-txt-color);
+}
+
+.desk-img{
+    width: 50%;
+    border-radius: 1rem 0 0 1rem;
+    display: none;
+}
+
+
+.attribution { color: var(--btn-color); font-size: 1.5rem; text-align: center; margin: 2rem 0; }
+.attribution a { color: var(--btn-hover-color); }
+

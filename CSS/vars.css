@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    /* fonts */
+    font-size: 63.5%;
+
+    /* vars */
+    --bg-color: hsl(30, 38%, 92%);
+    --main-color: hsl(0, 0%, 100%);;
+    --main-txt-color:hsl(228, 12%, 48%);
+    --second-txt-color: hsl(212, 21%, 14%);
+    --btn-color:hsl(158, 36%, 37%);
+    --btn-hover-color:hsl(158, 42%, 18%);
+}

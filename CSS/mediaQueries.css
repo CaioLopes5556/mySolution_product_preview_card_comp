@@ -1,0 +1,25 @@
+@media (min-width:60rem){
+
+    body{
+        justify-content: center;
+    }
+
+    .container{
+        max-width: 100rem;
+        padding: 2rem;
+        flex-direction: row;
+    }
+
+    .right-content{
+        gap: 4rem 0 ;
+        border-radius: 0 1rem 1rem 0;
+    }
+
+    .desk-img{
+        display: block;
+    }
+
+    .mob-img{
+        display: none;
+    }
+}
