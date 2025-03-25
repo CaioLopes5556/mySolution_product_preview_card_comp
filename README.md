@@ -28,8 +28,8 @@ Esta é minha solução para o desafio [Product preview card component](https://
 
 ### Links
 
-- Projeto URL: [Repositório GitHub](https://github.com/CaioLopes5556/)
-- Live Site: [Deploy do Projeto](https://caiolopes5556.github.io/)
+- Projeto URL: [Repositório GitHub](https://github.com/CaioLopes5556/mySolution_product_preview_card_comp)
+- Live Site: [Deploy do Projeto](https://caiolopes5556.github.io/mySolution_product_preview_card_comp)
 
 ## Sobre o projeto
 
@@ -60,9 +60,7 @@ Continuarei explorando conceitos de responsividade e praticando com os próximos
 
 ### Recursos Extras
 
-- [Web Dev](https://web.dev/learn/design/media-queries?hl=pt-br) -
-
-  Estes foi um dos recursos disponibilizados pelo próprio Front-End mentor para entender conceitos de responsividade, e ajudou bastante.
+- [Web Dev](https://web.dev/learn/design/media-queries?hl=pt-br) - Estes foi um dos recursos disponibilizados pelo próprio Front-End mentor para entender conceitos de responsividade, e ajudou bastante.
 
 ## Autor
 
